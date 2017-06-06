@@ -34,7 +34,7 @@ namespace Contoso.Events.Web
                 {
                     ClientId = clientId,
                     Authority = authority,
-                    PostLogoutRedirectUri = kekkonen-kekkonen.azurewebsites.net
+                    PostLogoutRedirectUri = PostLogoutRedirectUri
                 });
         }
     }
