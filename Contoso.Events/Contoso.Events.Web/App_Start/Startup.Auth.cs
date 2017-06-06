@@ -8,6 +8,10 @@ using Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OpenIdConnect;
+using Microsoft.Owin;
+using Contoso.Events.Web;
+
+[assembly:OwinStartup(typeof(Startup))]
 
 namespace Contoso.Events.Web
 {
