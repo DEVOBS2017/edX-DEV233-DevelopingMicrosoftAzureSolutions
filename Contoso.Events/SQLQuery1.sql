@@ -1,0 +1,1 @@
+﻿CREATE LOGIN Tarja WITH password='K0ivisto';
